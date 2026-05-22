@@ -579,20 +579,6 @@ section{padding:120px 40px;position:relative;}
 @media (max-width: 900px){.process-steps{grid-template-columns:1fr 1fr;}.process-line{display:none;}.step{border-bottom:1px solid var(--line);}.step:nth-child(2){border-right:none;}.step:nth-child(3){border-bottom:none;}.step:nth-child(4){border-bottom:none;}}
 @media (max-width: 600px){.process-steps{grid-template-columns:1fr;}.step{border-right:none;border-bottom:1px solid var(--line);padding:40px 24px;}.step:last-child{border-bottom:none;}.step:nth-child(3){border-bottom:1px solid var(--line);}}
 
-/* TESTIMONIALS */
-.testi-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;border-top:1px solid var(--line);padding-top:40px;}
-.testi{padding:42px 36px 36px;border:1px solid var(--line);border-radius:6px;position:relative;background:var(--bg-2);transition:transform 0.5s var(--ease-out), border-color 0.4s, background 0.4s;overflow:hidden;}
-.testi::before{content:'"';position:absolute;top:-10px;left:20px;font-family:var(--serif);font-style:italic;font-size:140px;line-height:1;color:var(--accent);opacity:0.35;font-variation-settings:"opsz" 144;}
-.testi:hover{transform:translateY(-4px);border-color:var(--line-strong);background:var(--bg-3);}
-.testi blockquote{font-family:var(--serif);font-weight:300;font-size:var(--t-20);line-height:1.45;letter-spacing:-0.01em;margin:38px 0 30px;position:relative;z-index:1;font-variation-settings:"opsz" 48;color:var(--paper);}
-.testi blockquote em{font-style:italic;color:var(--accent);font-weight:400;}
-.testi cite{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px;padding-top:24px;border-top:1px solid var(--line);}
-.testi cite strong{color:var(--paper);font-weight:500;}
-.testi cite .avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg, var(--accent), var(--accent-2));display:inline-flex;align-items:center;justify-content:center;font-family:var(--serif);font-style:italic;color:var(--bg);font-size:var(--t-14);font-weight:500;flex-shrink:0;overflow:hidden;}
-.testi cite .avatar img{width:100%;height:100%;object-fit:cover;}
-
-@media (max-width: 768px){.testi-grid{grid-template-columns:1fr;}.testi{padding:36px 26px 28px;}.testi blockquote{font-size:var(--t-18);}}
-
 /* FAQ */
 .faq-list{border-top:1px solid var(--line);max-width:900px;margin:0 auto;}
 .faq-item{border-bottom:1px solid var(--line);}
@@ -1045,7 +1031,7 @@ footer{padding:80px 40px 30px;border-top:1px solid var(--line);background:var(--
           <span>2026</span><span class="dot">·</span><span>Landing</span>
         </div>
         <h3>WS <em>Eventos</em></h3>
-        <p>Landing para produtora de eventos em Peruíbe. <em>Energia visual</em> e prova social pra captar contratos de festas e eventos corporativos.</p>
+        <p>Landing para produtora de eventos em Peruíbe. <em>Energia visual</em> e presença digital clara pra captar contratos de festas e eventos corporativos.</p>
         <div class="project-tags">
           <span class="project-tag">Landing page</span>
           <span class="project-tag">Eventos</span>
@@ -1131,41 +1117,15 @@ footer{padding:80px 40px 30px;border-top:1px solid var(--line);background:var(--
   <div class="process-steps">
     <div class="process-line" aria-hidden="true"></div>
     <div class="step"><div class="step-num tabular">01</div><h4>Diagnóstico</h4><p>Uma conversa de 30 minutos pra entender o que você vende, pra quem, e onde está perdendo dinheiro hoje.</p></div>
-    <div class="step"><div class="step-num tabular">02</div><h4>Proposta</h4><p>Em 48h você recebe escopo, prazo e preço fechado. Sem letrinha miúda, sem custo escondido depois.</p></div>
+    <div class="step"><div class="step-num tabular">02</div><h4>Proposta</h4><p>Em 48h você recebe escopo, prazo e uma proposta personalizada. Sem letrinha miúda, sem custo escondido depois.</p></div>
     <div class="step"><div class="step-num tabular">03</div><h4>Construção</h4><p>Você acompanha cada etapa com prévias semanais. Ajustes ilimitados antes de publicarmos.</p></div>
     <div class="step"><div class="step-num tabular">04</div><h4>Lançamento</h4><p>Publicação, treinamento da sua equipe e 30 dias de ajustes finos incluídos. Depois, suporte mensal opcional.</p></div>
   </div>
 </section>
 
-<section aria-labelledby="testi-title">
-  <div class="section-header">
-    <div class="section-num">07 — Depoimentos</div>
-    <h2 id="testi-title" class="section-title">O que <em>dizem</em>.</h2>
-  </div>
-
-  <div class="testi-grid">
-    <div class="testi">
-      <blockquote>Marcos entregou um site que parece de uma <em>marca grande</em>. Em duas semanas começamos a receber pedidos de orçamento todos os dias.</blockquote>
-      <cite><span class="avatar" aria-hidden="true">A</span><span><strong>Cliente AW Deck</strong> · Indústria · Brasil</span></cite>
-    </div>
-    <div class="testi">
-      <blockquote>O site novo do meu spa mudou completamente o tipo de cliente que me procura. <em>Profissionalismo no detalhe</em>, do começo ao fim.</blockquote>
-      <cite><span class="avatar" aria-hidden="true">S</span><span><strong>Cliente Sá Beauty &amp; Spa</strong> · EUA</span></cite>
-    </div>
-    <div class="testi">
-      <blockquote>Trabalhei com Marcos no rebrand do nosso e-commerce. <em>Fala português, inglês e entende de negócio.</em> Combinação rara.</blockquote>
-      <cite><span class="avatar" aria-hidden="true">N</span><span><strong>Cliente Nourish Vida</strong> · E-commerce · EUA</span></cite>
-    </div>
-    <div class="testi">
-      <blockquote>O atendente de IA respondeu mais de <em>300 conversas no primeiro mês</em>. Sem perder cliente por demora, sem precisar contratar.</blockquote>
-      <cite><span class="avatar" aria-hidden="true">L</span><span><strong>Cliente Lumakar</strong> · Automotivo · Brasil</span></cite>
-    </div>
-  </div>
-</section>
-
 <section id="faq" aria-labelledby="faq-title">
   <div class="section-header">
-    <div class="section-num">08 — Perguntas frequentes</div>
+    <div class="section-num">07 — Perguntas frequentes</div>
     <h2 id="faq-title" class="section-title">Antes que você <em>pergunte</em>.</h2>
   </div>
 
@@ -1176,7 +1136,7 @@ footer{padding:80px 40px 30px;border-top:1px solid var(--line);background:var(--
     </div>
     <div class="faq-item">
       <button class="faq-q" aria-expanded="false"><span>Quanto custa um site ou uma IA no WhatsApp?</span><span class="plus" aria-hidden="true"></span></button>
-      <div class="faq-a">Depende do escopo. Landing pages partem de R$ 2.500. Sites completos a partir de R$ 6.000. Atendentes de IA têm setup a partir de R$ 3.500 + mensalidade da plataforma. Sempre fechamos preço único após o diagnóstico — sem surpresas no meio do caminho.</div>
+      <div class="faq-a">Depende do escopo, do nível de personalização e das integrações necessárias. Depois do diagnóstico, você recebe uma proposta clara com entregáveis, prazo e investimento definidos — sem surpresas no meio do caminho.</div>
     </div>
     <div class="faq-item">
       <button class="faq-q" aria-expanded="false"><span>Quanto tempo leva pra ficar pronto?</span><span class="plus" aria-hidden="true"></span></button>
@@ -1199,7 +1159,7 @@ footer{padding:80px 40px 30px;border-top:1px solid var(--line);background:var(--
 
 <section id="contact" class="cta-section" aria-labelledby="cta-title">
   <h2 id="cta-title">Vamos construir <em>algo</em> que cresce sozinho?</h2>
-  <p class="cta-sub">Diagnóstico gratuito de 30 minutos. Em 48h você recebe escopo, prazo e preço fechado. Sem compromisso, sem letrinha miúda.</p>
+  <p class="cta-sub">Diagnóstico gratuito de 30 minutos. Em 48h você recebe escopo, prazo e uma proposta personalizada. Sem compromisso, sem letrinha miúda.</p>
   <div class="cta-actions">
     <a class="btn btn-primary" href="#"><span>Iniciar projeto →</span></a>
     <a class="btn btn-secondary" href="#" aria-label="Falar no WhatsApp">
@@ -1266,7 +1226,7 @@ if(!reduce){
       }
     });
   }, {threshold:0.12, rootMargin:'0px 0px -60px 0px'});
-  document.querySelectorAll('section, .testi, .step, .service, .faq-item').forEach(el => {
+  document.querySelectorAll('section, .step, .service, .faq-item').forEach(el => {
     el.classList.add('reveal');
     observer.observe(el);
   });
